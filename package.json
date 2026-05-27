@@ -1,0 +1,6 @@
+{
+  "name":"my-api",
+  "scripts":{
+      "test":"echo Testing..."
+  }
+}
