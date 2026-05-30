@@ -1,6 +1,6 @@
 name: Github action usage
 
-on: push:
+on: push
 jobs:
    Action-demo:
 
