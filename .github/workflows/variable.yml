@@ -1,0 +1,8 @@
+name: Using variable in your yml file demo 
+on: workflow_dispatch
+jobs:
+  Job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Using variable
+        run: echo "Building {{vars.MY_NAME}}'s application"
