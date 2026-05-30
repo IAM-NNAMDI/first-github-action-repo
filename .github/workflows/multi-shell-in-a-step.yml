@@ -1,0 +1,10 @@
+name: Multi shell command in one step
+on: workflow_dispatch
+jobs:
+  multi-shell:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello step
+        run: |
+           date
+           cal
