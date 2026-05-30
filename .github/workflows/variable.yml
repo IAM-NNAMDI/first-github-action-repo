@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Using variable
-        run: echo "Building {{vars.MY_NAME}}'s application"
+        run: echo "Building ${{ vars.MY_NAME }}'s application"
