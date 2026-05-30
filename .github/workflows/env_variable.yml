@@ -1,0 +1,13 @@
+name: Using env variables
+on: push
+env:
+  APP_ENV: "Dev"
+jobs:
+  env_build:
+    env:
+      APP_ENV: "Testing stage"
+    runs-on: ubuntu latest
+    steps:
+    - name: Applying env variable
+      run: echo "Deploying on $APP_ENV
+  
