@@ -1,0 +1,8 @@
+name: Push trigger demo
+on: push
+jobs:
+  Job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build stage
+        run: echo "Building the application"
