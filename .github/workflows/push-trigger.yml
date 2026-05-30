@@ -1,5 +1,12 @@
 name: Push trigger demo
-on: push
+on: 
+ push:
+  branches:
+    - main
+    - dev
+ pull_request:
+  branches:
+   - main
 jobs:
   Job-1:
     runs-on: ubuntu-latest
